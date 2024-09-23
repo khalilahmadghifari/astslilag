@@ -1,0 +1,33 @@
+.judulcs{
+    justify-content: center;
+    display: flex;
+  }
+  .isian{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255 202 0) ;
+    bottom: unset;
+    right: 0;
+    left: 0;
+    position: absolute;
+    padding: 20px 0;
+    margin-top: 39px;
+  }
+  .isian .foto1{
+    display: flex;
+  }
+  .isian .foto2{
+    display: flex;
+  }
+  .isian .foto3{
+    display: flex;
+  }
+  .isian h1{
+    font-size: 17px;
+    padding: 0px 25px;
+    color:  black;
+  }
+  .isian img{
+    max-width: 50px;
+  }
+  

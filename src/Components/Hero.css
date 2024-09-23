@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(255 202 0);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+.hero{
+    display: flex;
+}
+.hero .img1 img{
+    margin-top: 80px;
+    width: 25rem;
+    padding-left: 150px;
+}
+.hero .img2 img{
+    width: 85%;
+    padding-right: 50px;
+    margin-top: 70px;
+}
+.hero .img2{
+        padding-right: 50px;
+}
+.hero .img1 .img3 img{
+    width: 70%;
+}

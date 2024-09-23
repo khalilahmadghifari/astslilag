@@ -1,0 +1,36 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+  }
+  
+  .navbar .list ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  .navbar .list ul li a{
+    text-decoration: none;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } 
+  
+  .navbar .logo img{
+    width: 120px;
+    margin-top: 7px;
+  }
+
+  .navbar .list .tombol button{
+    background-color: #8A489C;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: bolder;
+  }

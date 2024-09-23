@@ -1,0 +1,38 @@
+.judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-top: 55px;
+  }
+
+  .judul h1{
+    color: #8A489C ;
+  }
+  .judul h1 span{
+    color: rgb(255 202 0);
+  }
+  .judul {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu1, .menu2, .menu3, .menu4 {
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+}
+
+.menu img {
+    width: 100%;
+    border-radius: 20px; 
+}
